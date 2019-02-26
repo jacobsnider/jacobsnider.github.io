@@ -1,0 +1,365 @@
+/* index.html */
+
+/*/////////////////////////////////////
+////////// GENERAL STYLES ////////////
+///////////////////////////////////*/
+
+.body {
+  background-color: rgb(232,232,232);
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    padding: 5px 5px;
+}
+
+p {
+  font-size: 1em;
+  width: %;
+  text-align: center;
+}
+
+
+/*/////////////////////////////////////
+////////// NAVBAR ////////////////////
+///////////////////////////////////*/
+
+.navbar {
+  background-color: teal;
+}
+
+.btn {
+  display: inline-block;
+  width: 100% !important;
+  margin: 1em;
+  background-color: #f0b161;
+  border: solid white 2px;
+}
+
+.btn:hover {
+  border: solid #f0b161 2px;
+  background-color: teal;
+}
+
+/*/////////////////////////////////////
+////////// HEADER ////////////////////
+///////////////////////////////////*/
+
+.main-header {
+	background-image: url(../images/mh-background-image.jpg);
+  padding-top: 4em;
+}
+
+.profile-image {
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 20em;
+  width: 20em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+.tagline {
+  background: black;
+  text-shadow: -1px 0 #f0b161, 0 1px #f0b161, 1px 0 #f0b161, 0 -1px #f0b161;
+  color: white;
+  font-family: American Typewriter;
+  font-size: 3em;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: .3em;
+}
+
+/*/////////////////////////////////////
+////////// MAIN CONTENT //////////////
+///////////////////////////////////*/
+
+/* GENERAL STYLES */
+
+.main-content {
+  font-family: Helvetica, sans-serif;
+  width: 80%
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-content a {
+  color: #f0b161;
+  text-decoration: none;
+}
+
+.main-content a:hover{
+  color: purple;
+  text-decoration: none;
+}
+
+h2 {
+  background-color: #f0b161;
+  color: teal;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  border: solid teal 2.5px;
+  padding: .5em;
+  margin: 1em;
+  display: inline-block;
+  margin: auto;
+}
+
+h3 {
+  background-color: #f0b161;
+  color: teal;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  border: solid teal 2.5px;
+  padding: .5em;
+  margin: 1em;
+  display: inline-block;
+  margin: auto;
+}
+
+h3:hover {
+  background-color: teal;
+  border: solid #f0b161 2.5px;
+  color: purple;
+}
+
+/* /GENERAL STYLES */
+
+/* TRAVEL  */
+
+.travel-image {
+  border: solid #f0b161 5px;
+}
+
+figure {
+  position: relative;
+  margin: 0;
+  line-height: 1;
+}
+
+figcaption {
+  font-size: .9em;
+  line-height: 1;
+  color: white;
+  padding: .5em;
+  background: rgba(0,128,128, .85);
+  opacity: .75;
+  position: absolute;
+  top: 1rem;
+  left: 2.5rem;
+  visibility: hidden;
+}
+
+figure:hover figcaption {
+  visibility: visible;
+}
+
+/* /TRAVEL  */
+
+/* FILM  */
+
+.film-iframe-div {
+  border: solid #f0b161 5px;
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+}
+
+.film-iframe-div iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.film-caption {
+  font-size: .85em;
+  padding: 1em;
+  margin-bottom: -.5em;
+}
+
+.film-caption a {
+  color: black !important;
+}
+
+.film-caption a:hover {
+  color: purple !important;
+}
+
+  /* film.html */
+
+.main-content-film {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  width: 9em;
+  height: 9em;
+}
+
+  /* /film.html */
+
+/* /FILM  */
+
+/* WRITING */
+
+.poem {
+  border: solid #f0b161 5px;
+}
+
+/* /WRITING */
+
+/*/////////////////////////////////////
+////////// FOOTER ////////////////////
+///////////////////////////////////*/
+
+.page-footer {
+  background: teal;
+  text-align: center
+  width: 100%;
+  max-height: ;
+}
+
+.icon {
+  color: white;
+}
+
+.icon:hover {
+  color: purple!important;
+  text-decoration: none;
+}
+
+.contact-icon {
+  color: white;
+  /* padding-left:
+  max-height: 32px;
+  max-width: 32px; */
+}
+
+.footer-copyright {
+  display: inline-block;
+}
+
+footer i:hover {
+  color: purple !important;
+}
+
+/*/// MODAL ///*/
+
+.modal {
+  display: none;
+  background: rgb(0,128,128, .95);
+  border: solid #f0b161 10px;
+  z-index: 100; /* Sit on top */
+  left: 13%;
+  top: 7%;
+  width: 75%; /* Full width */
+  height: 65%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+.modal-content {
+  background: teal;
+}
+
+.modal-title {
+  background-color: rgba(0,96,96); /* #f0b161 */
+  color: white;
+  font-weight: bold;
+  /* text-shadow: -1px 0 teal, 0 1px teal, 1px 0 teal, 0 -1px teal; */
+  border: solid white 2.5px;
+  padding: 1em !important;
+  margin: 1em;
+  display: inline-block;
+  width: 100%
+}
+
+.form {
+  display: inline-block;
+  background: teal;
+  margin: 1em auto; /* centered */
+  padding: 4em;
+  width: 80%;
+}
+
+#namePlcHld {
+  border: solid #f0b161 3px;
+  display: inline-block;
+  width: 100%;
+  padding: .5em;
+  margin: 1em;
+}
+
+#mail {
+  border: solid #f0b161 3px;
+  display: inline-block;
+  width: 100%;
+  padding: .5em;
+  margin: 1em;
+  width: 100%
+}
+
+#notes {
+  border: solid #f0b161 3px;
+  display: inline-block;
+  width: 100%;
+  padding: .5em;
+}
+
+#submitBtn {
+  border: solid #f0b161 3px !important;
+  background: grey !important;
+  color: white !important;
+  display: block;
+  width: 100%;
+}
+
+#closeBtn {
+  border: solid #f0b161 3px !important;
+  background: grey !important;
+  color: white !important;
+  display: block;
+  width: 100%;
+}
+
+/*/// /MODAL ///*/
+
+/*////////////////////////////////////////////
+//////////// MEDIA QUERIES //////////////////
+//////////////////////////////////////////*/
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .btn {
+    display: inline-block;
+    margin: auto;
+    background-color: #f0b161;
+    border: solid white 2px;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+
+
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
