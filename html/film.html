@@ -22,42 +22,44 @@
 
 	<!-- NAVBAR -->
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top pb-2">
-		<!-- <div class="nav-container md-mx-auto"> -->
-			<button class="navbar-toggler mx-2 my-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav">
-					<!-- navbar buttons -->
-						<div type="" class="btn mx-2 my-1">
-							<a class="nav-item nav-link text-white font-weight-bold" href="index.html">HOME</a>
-						</div>
-						<button type="button" class="btn btn-outline-info mx-2 my-1">
-							<a class="nav-item nav-link text-white font-weight-bold" href="https://theidiottourist.wordpress.com" target="_blank">TRAVEL</a>
-						</button>
-						<button type="button" class="btn btn-outline-info mx-2 my-1">
-							<a class="nav-item nav-link text-white font-weight-bold" href="film.html">FILM</a>
-						</button>
-						<button type="button" class="btn btn-outline-info mx-2 my-1">
-							<a class="nav-item nav-link text-white font-weight-bold" href="music.html">MUSIC</a>
-						</button>
-						<button type="button" class="btn btn-outline-info mx-2 my-1">
-							<a class="nav-item nav-link text-white font-weight-bold" href="writing.html">WRITING</a>
-						</button>
-						<button type="button" class="btn btn-outline-info mx-2 my-1">
-							<a class="nav-item nav-link text-white font-weight-bold" href="https://github.com/jake-thegangle-snider" target="_blank">CODING</a>
-						</button>
-					</div>
-					<!-- /navbar buttons -->
-		    </div>
-		  </div>
+		<button class="navbar-toggler mx-2 my-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<!-- navbar buttons -->
+				 <button type="" class="btn mx-2 my-1">
+					 <a class="nav-item nav-link text-white font-weight-bold" href="index.html">HOME</a>
+				 </button>
+				 <button type="button" class="btn btn-outline-info mx-2 my-1">
+					 <a class="nav-item nav-link text-white font-weight-bold" href="film.html">FILM</a>
+				 </button>
+				 <button type="button" class="btn btn-outline-info mx-2 my-1">
+					 <a class="nav-item nav-link text-white font-weight-bold" href="music.html">MUSIC</a>
+				 </button>
+				 <button type="button" class="btn btn-outline-info mx-2 my-1">
+					 <a class="nav-item nav-link text-white font-weight-bold" href="writing.html">WRITING</a>
+				 </button>
+				 <button type="button" class="btn btn-outline-info mx-2 my-1">
+					 <a class="nav-item nav-link text-white font-weight-bold" href="https://github.com/jake-thegangle-snider" target="_blank">CODING</a>
+				 </button>
+				 <button type="button" class="btn btn-outline-info mx-2 my-1">
+					 <a class="nav-item nav-link text-white font-weight-bold" href="https://theidiottourist.wordpress.com" target="_blank">TRAVEL</a>
+				 </button>
+				 <button type="button" class="btn btn-outline-info mx-2 my-1">
+ 					 <a id="contactBtn" class="nav-item nav-link text-white font-weight-bold" data-toggle="modal" data-target="#exampleModalCenter">CONTACT</a>
+ 				 </button>
+				<!-- /navbar buttons -->
+			</div>
 		</div>
 	</nav>
 	<!-- /NAVBAR -->
 
 <!-- HEADER -->
 <header class="main-header shadow-lg">
-	<div class="main-image mt-5"><img class="profile-image" src="../images/bio-pic.jpg" alt="Picture of Jake Snider"></div>
+	<div class="main-image mt-5">
+		<img class="profile-image" id="profileImage" src="../images/bio-pic.jpg" alt="Picture of Jake Snider">
+	</div>
 	<h1 class="tagline font-weight-normal">An Inexplicable Existence</h1>
 </header>
 <!-- /HEADER -->
@@ -182,8 +184,7 @@
 			<!-- /THE PLAY BABIES -->
 
 </main>
-
-
+<!-- MAIN CONTENT	 -->
 <!-- Footer -->
 <footer class="page-footer text-center font-small cyan darken-3">
 					<div class="icon-div col-12 py-1">
@@ -208,8 +209,8 @@
 						</div>
 						<!--/github-->
 						<!--contact-->
-						<div class="contact-icon d-inline-block my-1" data-toggle="modal" data-target="#contactModal">
-							<i id="contactBtn" class="contact-icon far fa-envelope text-white mx-2 mt-3 fa-2x"></i>
+						<div class="icons contact-icon d-inline-block my-1"> <!--data-toggle="modal" data-target="#contactModal" -->
+							<i id="contactBtn" class="icon far fa-envelope text-white mx-2 mt-3 fa-2x" data-toggle="modal" data-target="#exampleModalCenter"></i>
 						</div>
 						<!--/contact-->
 							<!-- Copyright -->
@@ -221,26 +222,41 @@
   </footer>
   <!-- /Footer -->
 
+	<!-- MODAL -->
+	<div id="exampleModalCenter" class="modal fade contactModal container-fluid my-5 shadow-lg rounded" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content my-auto">
+				<div class="modal-header container">
+					<div class="col">
+						<div class="row">
+						<button type="button" class="close d.inline-block text-white" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+						<div class="mx-auto row mb-4">
+							<h5 id="exampleModalLongTitle" class="modal-title text-white mx-auto shadow rounded">CONTACT</h5>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<input id="namePlcHld" class="mx-auto my-3 shadow rounded" placeholder="Name:"/>
+					<input id="mail" class="mx-auto my-3 shadow rounded" placeholder="Email:"/>
+					<textarea id="notes" class="mx-auto my-3 shadow rounded" placeholder="Put Words Here:"></textarea>
+				</div>
+				<div class="modal-footer">
+					<button id="submitBtn" type="button" class="btn mod-btn mx-2 shadow rounded">Submit</button>
+					<button id="closeBtn" type="button" class="btn mod-btn mx-2 shadow rounded" data-dismiss="modal">Close</button>
+				</div>
+	</div>
+</div>
+	<!-- /MODAL -->
+
 <!-- JAVASCRIPT -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="../scripts/app.js"></script>
-
 <!-- /JAVASCRIPT -->
-
-<div class="modal contactModal container-fluid my-5 shadow-lg rounded" tabindex="-1" role="dialog" id="exampleModal" aria-labelledby="exampleModalLabel">
-  <div class="modal-dialog-centered" role="document">
-    <div class="mx-4">
-      <h5 id="modal-title" class="my-3 modal-title mx-auto text-center shadow rounded">CONTACT</h5>
-		  <input id="namePlcHld" class="mx-auto my-3 shadow rounded" placeholder="Name:"/>
-		  <input id="mail" class="mx-auto my-3 shadow rounded" placeholder="Email:"/>
-		  <textarea id="notes" class="mx-auto my-3 shadow rounded" placeholder="Put Words Here:"></textarea>
-		  <button id="submitBtn" class="mod-btn mx-auto my-3 py-2 text-center shadow rounded">Submit</button>
-		  <button id="closeBtn" class="mod-btn mx-auto my-3 py-2 shadow rounded">Close</button> <!-- data-dismiss="modal" -->
-    </div>
-  </div>
-</div>
 
 </body>
 <!-- /BODY -->
