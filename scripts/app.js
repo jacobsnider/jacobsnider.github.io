@@ -17,21 +17,18 @@ $( ".crossRotate" ).click(function() {
     if (  $( this ).css( "transform" ) == 'none' ){
         $(this).css("transform","rotate(180deg)");
     } else {
-        $(this).css("transform","" );
+        $(this).css("transform", "");
     }
 });
-
-// $(document).ready(function() {
-//   $( "#profileImage" )
-//   .click(function() {
-//   rotation();
-//   window.location.href = "index.html";
-//   });
-// });
 
 $(document).ready(function() {
   $( "#submitBtn" )
   .click(function() {
   alert("No server connection. To directly contact Jake Snider, Email: smokestacksandspires@gmail.com ");
   });
+});
+
+// $(selector).fadeIn(speed,easing,callback)
+$(document).ready(function() {
+  $( ".main-image:hidden:first" ).fadeIn( "6000" , "linear");
 });

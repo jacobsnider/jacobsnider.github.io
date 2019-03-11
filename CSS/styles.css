@@ -47,7 +47,8 @@ p {
 ///////////////////////////////////*/
 
 .main-header {
-	background-image: url(../images/mh-background-image.jpg);
+  background: #131919;
+  background-image: url(../images/mh-background-image.jpg);
   padding-top: 4em;
 }
 
