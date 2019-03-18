@@ -28,9 +28,9 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function(){
-    $( ".btn" )
-  .mouseenter(function() {
-    $( this ).css({"cursor" : "pointer"});
-  })
-});
+// $(document).ready(function(){
+//     $( ".btn" )
+//   .mouseenter(function() {
+//     $( this ).css({"cursor" : "pointer"});
+//   })
+// });
