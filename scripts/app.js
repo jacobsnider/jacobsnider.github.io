@@ -28,7 +28,9 @@ $(document).ready(function() {
   });
 });
 
-// $(selector).fadeIn(speed,easing,callback)
-$(document).ready(function() {
-  $( ".main-image:hidden:first" ).fadeIn( "6000" , "linear");
+$(document).ready(function(){
+    $( ".btn" )
+  .mouseenter(function() {
+    $( this ).css({"cursor" : "pointer"});
+  })
 });
