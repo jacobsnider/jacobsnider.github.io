@@ -25,11 +25,11 @@
 	  <button class="navbar-toggler mx-2 my-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	  <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
 	    <div class="navbar-nav mx-auto">
 				<!-- navbar buttons -->
-				 <button type="" class="btn mx-2 my-1">
-					 <a class="nav-item nav-link text-white font-weight-bold" id="home" href="index.html">HOME</a>
+				 <button type="button" class="btn mx-2 my-1">
+					 <a id="home" class="nav-item nav-link text-white font-weight-bold" href="index.html">HOME</a>
 				 </button>
 				 <button type="button" class="btn btn-outline-info mx-2 my-1">
 					 <a class="nav-item nav-link text-white font-weight-bold" href="film.html">FILM</a>
@@ -56,27 +56,26 @@
 <!-- /NAVBAR -->
 
 <!-- HEADER -->
-<header class="main-header shadow-lg">
-		<div class="main-image mt-5">
-			<img class="profile-image crossRotate" id="profileImage" src="../images/bio-pic.jpg" alt="Picture of Jake Snider">
-		</div>
-	<h1 class="tagline font-weight-normal">An Inexplicable Existence</h1>
-</header>
+	<header class="main-header shadow-lg">
+			<div class="main-image mt-5">
+				<img class="profile-image crossRotate" id="profileImage" src="../images/bio-pic.jpg" alt="Picture of Jake Snider">
+			</div>
+		<h1 class="tagline font-weight-normal">An Inexplicable Existence</h1>
+	</header>
 <!-- /HEADER -->
 
 <!-- MAIN CONTENT -->
-<main class="main-content">
+	<main class="main-content">
 
 		<p class="my-5">Jake Snider is an artist, entrepreneur and perpetual learner. He currently resides in Louisville, Kentucky.</p>
 
-		<!-- columns -->
+	<!-- CONTENT -->
 		<div class="container">
 		  <div class="row">
-
-				<!-- film ////////////////////////////////////////////////////////-->
+				<!-- film -->
 				<div class="col-12 col-md-10 mx-auto">
 		      <a href="film.html">
-						<h3 class="my-4 font-weight-bold shadow-lg rounded">FILM</h3>
+						<h3 class="font-weight-bold my-4 shadow-lg rounded">FILM</h3>
 					</a>
 						<div class="film-iframe-div embed-responsive embed-responsive-21by9 shadow rounded">
 							<iframe class="film-iframe embed-responsive-item rounded" src="https://player.vimeo.com/video/263964576?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -85,48 +84,48 @@
 						<p class="film-caption"><a href="https://vimeo.com/263964576">Varials &quot;Empire of Dirt&quot;</a> from <a href="https://vimeo.com/maxmoorefilms">Max Moore</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 						<p class="film-p">From acting to editing, Jake's film portfolio is varied and continues to grow.</p>
 				</div>
-				<!-- /film ////////////////////////////////////////////////////////-->
+				<!-- /film -->
 
-				<!-- music ////////////////////////////////////////////////////////-->
+				<!-- music -->
 				<div class="col-md-6 col-lg-4 mx-auto mt-5 d-block">
 		      <a href="music.html">
-						<h3 class="my-4 mx-2 font-weight-bold shadow-lg rounded">MUSIC</h3>
+						<h3 class="font-weight-bold mx-2 my-4 shadow-lg rounded">MUSIC</h3>
 					</a>
 					<div class="embed-responsive embed-responsive-1by1 shadow">
 						<iframe class="music-iframe embed-responsive-item rounded" style="border: solid #f0b161 5px;" src="https://bandcamp.com/EmbeddedPlayer/album=1481421847/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=1374959661/transparent=true/" seamless><a href="http://mountainasleep.bandcamp.com/album/smile-medicine">Smile Medicine by Mountain Asleep</a></iframe>
 					</div>
 					<p class="my-3">A veteran of Louisville's D.I.Y. Punk community.<br />Take a listen!</p>
 				</div>
-				<!-- /music ////////////////////////////////////////////////////////-->
+				<!-- /music -->
 
-				<!-- writing ////////////////////////////////////////////////////////-->
+				<!-- writing -->
 				<div class="col-md-6 col-lg-4 mx-auto mt-5 d-block">
 		      <a href="writing.html">
-						<h3 class="my-4 mx-2 font-weight-bold shadow-lg rounded">WRITING</h3>
+						<h3 class="font-weight-bold mx-2 my-4 shadow-lg rounded">WRITING</h3>
 					</a>
 						<div class="poem-div embed-responsive embed-responsive-1by1 shadow">
 							<img class="poem embed-responsive-item rounded" style="border: solid #f0b161 5px;"  src="../images/homecoming-poem.jpg" alt="A poem. Homecoming <br /> Stomach tilting on gas <br /> station food. I'm facing <br /> Eastward once again." />
 						</div>
 						<p class="my-3">Poet, playwright, zinester, graphic novelist;<br />Jake studied English literature and creative writing at the University of Louisville.</p>
 				</div>
-				<!-- /writing ////////////////////////////////////////////////////////-->
+				<!-- /writing -->
 
-				<!-- coding ////////////////////////////////////////////////////////-->
+				<!-- coding -->
 				<div class="col-md-6 col-lg-4 mx-auto mt-5 d-block">
 		      <a href="https://github.com/jake-thegangle-snider" target="_blank">
-						<h3 class="my-4 mx-2 font-weight-bold shadow-lg rounded">CODING</h3>
+						<h3 class="font-weight-bold mx-2 my-4 shadow-lg rounded">CODING</h3>
 					</a>
 					<div class="coding-div embed-responsive embed-responsive-1by1 shadow">
 						<img class="coding-image embed-responsive-item rounded" style="border: solid #f0b161 5px;" src="../images/html-icon.jpg" alt="HTML Code"/>
 					</div>
 					<p class="my-3">Jake is a current student of<br /><a href="https://codelouisville.org/">&lt;code&gt; LOUISVILLE</a><br />This website is his first front-end web development project.</p>
 		    </div>
-				<!-- /coding ////////////////////////////////////////////////////////-->
+				<!-- /coding -->
 
-				<!-- travel ////////////////////////////////////////////////////////-->
+				<!-- travel -->
 				<div class="col-md-12 my-5">
 					<a href="https://theidiottourist.wordpress.com" target="_blank">
-						<h3 class="my-3 font-weight-bold shadow-lg rounded">TRAVEL</h3>
+						<h3 class="font-weight-bold mx-2 my-4 shadow-lg rounded">TRAVEL</h3>
 					</a>
 					<figure class="col-12 col-md-10 mx-auto">
 						<img class="travel-image img-fluid shadow rounded" src="https://theidiottourist.files.wordpress.com/2017/05/cairngorms-4.jpg?w=1040" alt="Cairngorms National Park, Scotland" />
@@ -136,10 +135,10 @@
 					</figure>
 					<p class="my-4">A fool for travel! Check out Jake's exclusive travel site<a href="https://theidiottourist.wordpress.com" target="_blank">here</a>.</p>
 				</div>
-				<!-- /travel /////////////////////////////////////////////////////-->
-
+				<!-- /travel -->
 			</div> <!-- row -->
 		</div> <!-- container -->
+	<!-- /CONTENT -->
 </main>
 
 <!-- /MAIN CONTENT -->
@@ -149,28 +148,28 @@
 		<!-- footer div -->
 			<div class="icon-div col-12 py-1">
 				<!-- linkedin -->
-					<div class="icons text-white d-inline-block my-1">
+					<div class="icons text-white my-1 d-inline-block">
 						<a href="https://www.linkedin.com/in/jake-snider-14300315b/" target="_blank"
 							<i id="li-icon" class="icon fab fa-linkedin-in mx-1 mt-3 fa-2x"</i>
 						</a>
 					</div>
 				<!-- /linkedin -->
 				<!-- instagram -->
-					<div class="icons d-inline-block my-1">
+					<div class="icons my-1 d-inline-block">
 						<a href="https://www.instagram.com/jakeisanugget/" target="_blank"
 							<i class="icon text-white fab fa-instagram text-center mx-1 mt-3 fa-2x"</i>
 						</a>
 					</div>
 				<!-- /instagram -->
 				<!-- github -->
-					<div class="icons d-inline-block my-1">
+					<div class="icons my-1 d-inline-block">
 						<a href="https://github.com/jake-thegangle-snider" target="_blank"
 							<i class="icon text-white fab fa-github mx-1 mt-3 fa-2x"</i>
 						</a>
 					</div>
 				<!-- /github -->
 				<!-- contact -->
-					<div class="icons contact-icon d-inline-block my-1"> <!--data-toggle="modal" data-target="#contactModal" -->
+					<div class="icons contact-icon my-1 d-inline-block"> <!--data-toggle="modal" data-target="#contactModal" -->
 						<i id="contactBtn" class="icon far fa-envelope text-white mx-2 mt-3 fa-2x" data-toggle="modal" data-target="#exampleModalCenter"></i>
 					</div>
 				<!-- /contact -->
@@ -190,7 +189,7 @@
 				<div class="modal-header container"> <!-- m-header container -->
 					<div class="col"> <!-- col -->
 						<div class="row"> <!-- cls btn row -->
-							<button type="button" class="close d.inline-block text-white rounded" data-dismiss="modal" aria-label="Close">
+							<button type="button" class="close text-white rounded d.inline-block" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div> <!-- /cls btn row -->
