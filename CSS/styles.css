@@ -24,10 +24,6 @@ p {
   text-align: center;
 }
 
-.hover:hover {
-  cursor: pointer;
-}
-
 /*/////////////////////////////////////
 ////////// NAVBAR ////////////////////
 ///////////////////////////////////*/
@@ -47,7 +43,7 @@ p {
 .btn:hover {
   border: solid #f0b161 2px;
   background-color: teal;
-  cursor: pointer !important;
+  cursor: pointer;
 }
 
 /*/////////////////////////////////////
@@ -137,7 +133,7 @@ h3:hover {
   background-color: teal;
   border: solid #f0b161 2.5px;
   color: purple;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 /* /GENERAL STYLES */
@@ -273,7 +269,7 @@ figure:hover figcaption {
 .icon:hover {
   color: purple!important;
   text-decoration: none;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .contact-icon {
