@@ -276,10 +276,6 @@ figure:hover figcaption {
   color: white;
 }
 
-.contact-icon:hover {
-  curoser: pointer !important;
-}
-
 .footer-copyright {
   display: inline-block;
 }
@@ -353,19 +349,10 @@ footer i:hover {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-  /* .btn {
-    display: inline-block;
-    margin: auto;
-    background-color: #f0b161;
-    border: solid white 2px;
-  } */
-
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
-
 
 }
 
