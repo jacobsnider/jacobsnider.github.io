@@ -248,8 +248,18 @@ figure:hover figcaption {
 .poem {
   border: solid #f0b161 5px;
 }
+  /* writing.html */
+  .sdd-div {
+    background: black;
+    width: 100%;
+    height: 100%;
+  }
+  /* /writing.html */
 
 /* /WRITING */
+
+
+
 
 /*/////////////////////////////////////
 ////////// FOOTER ////////////////////
