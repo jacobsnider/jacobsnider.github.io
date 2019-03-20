@@ -4,7 +4,7 @@ JAKE SNIDER RESUME/PORTFOLIO PAGE
    copyright Jake Snider 2019.
 
 
-CODE LOUISVILLE FRONT END WEB DEVELOPMENT PROJECT GUIDE
+CODE LOUISVILLE FRONT END WEB DEVELOPMENT PROJECT GUIDE  
 =======================================================
 
 This is a pretty straight forward front end project, there are no special requirements to run the site. I utilized Bootstrap and jquery for design and functionality. 
