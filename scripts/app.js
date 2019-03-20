@@ -1,5 +1,5 @@
 // SCRIPTS for Jake Snider Portfolio Site
-
+   
 $(document).ready(function(){
     $( "#profileImage" )
   .mouseenter(function() {
