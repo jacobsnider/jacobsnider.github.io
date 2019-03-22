@@ -1,4 +1,4 @@
-   
+
 /*/////////////////////////////////////
 ////////// GENERAL STYLES ////////////
 ///////////////////////////////////*/
@@ -117,7 +117,7 @@ h2 {
   margin: auto;
 }
 
-h3 {
+h2 {
   background-color: #f0b161;
   color: teal;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -128,7 +128,7 @@ h3 {
   margin: auto;
 }
 
-h3:hover {
+h2:hover {
   background-color: teal;
   border: solid #f0b161 2.5px;
   color: purple;
