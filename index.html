@@ -146,6 +146,42 @@
 		</main>
 	<!-- /MAIN CONTENT -->
 
+	<!-- MODAL -->
+		<div id="exampleModalCenter" class="modal fade contactModal container-fluid mb-5 shadow-lg rounded" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered my-4" role="document">
+				<div class="modal-content my-auto">
+					<!-- MODAL HEADER -->
+					<div class="modal-header container"> <!-- m-header container -->
+						<div class="col"> <!-- col -->
+							<div class="row"> <!-- cls btn row -->
+								<button type="button" class="close text-white rounded d.inline-block" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div> <!-- /cls btn row -->
+							<div class="row mx-auto mb-4"> <!-- title row -->
+								<h5 id="exampleModalLongTitle" class="modal-title text-white mx-auto shadow rounded">CONTACT</h5>
+							</div> <!-- /title row -->
+						</div> <!-- /col -->
+					</div><!-- /m-header container -->
+					<!-- /MODAL HEADER -->
+					<!-- MODAL BODY -->
+					<div class="modal-body">
+						<input id="namePlcHld" class="mx-auto my-3 shadow rounded" placeholder="Name:"/>
+						<input id="mail" class="mx-auto my-3 shadow rounded" placeholder="Email:"/>
+						<textarea id="notes" class="mx-auto my-3 shadow rounded" placeholder="Put Words Here:"></textarea>
+					</div>
+					<!-- /MODAL BODY -->
+					<!-- MODAL FOOTER -->
+					<div class="modal-footer">
+						<button id="submitBtn" type="button" class="btn mod-btn mx-2 shadow rounded">Submit</button>
+						<button id="closeBtn" type="button" class="btn mod-btn mx-2 shadow rounded" data-dismiss="modal">Close</button>
+					</div>
+					<!-- /MODAL FOOTER -->
+				</div>
+			</div>
+		</div>
+	<!-- /MODAL -->
+
 	<!-- FOOTER -->
 		<footer class="page-footer text-center font-small cyan darken-3">
 			<!-- footer div -->
@@ -183,42 +219,6 @@
 			<!-- /Footer div -->
 		</footer>
 	<!-- /FOOTER -->
-
-	<!-- MODAL -->
-		<div id="exampleModalCenter" class="modal fade contactModal container-fluid mb-5 shadow-lg rounded" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered my-4" role="document">
-				<div class="modal-content my-auto">
-					<!-- MODAL HEADER -->
-					<div class="modal-header container"> <!-- m-header container -->
-						<div class="col"> <!-- col -->
-							<div class="row"> <!-- cls btn row -->
-								<button type="button" class="close text-white rounded d.inline-block" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div> <!-- /cls btn row -->
-							<div class="row mx-auto mb-4"> <!-- title row -->
-								<h5 id="exampleModalLongTitle" class="modal-title text-white mx-auto shadow rounded">CONTACT</h5>
-							</div> <!-- /title row -->
-						</div> <!-- /col -->
-					</div><!-- /m-header container -->
-					<!-- /MODAL HEADER -->
-					<!-- MODAL BODY -->
-					<div class="modal-body">
-						<input id="namePlcHld" class="mx-auto my-3 shadow rounded" placeholder="Name:"/>
-						<input id="mail" class="mx-auto my-3 shadow rounded" placeholder="Email:"/>
-						<textarea id="notes" class="mx-auto my-3 shadow rounded" placeholder="Put Words Here:"></textarea>
-					</div>
-					<!-- /MODAL BODY -->
-					<!-- MODAL FOOTER -->
-					<div class="modal-footer">
-						<button id="submitBtn" type="button" class="btn mod-btn mx-2 shadow rounded">Submit</button>
-						<button id="closeBtn" type="button" class="btn mod-btn mx-2 shadow rounded" data-dismiss="modal">Close</button>
-					</div>
-					<!-- /MODAL FOOTER -->
-				</div>
-			</div>
-		</div>
-	<!-- /MODAL -->
 
 	<!-- JAVASCRIPT -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script><!-- for modal -->
