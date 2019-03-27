@@ -1,5 +1,5 @@
 // SCRIPTS for Jake Snider Portfolio Site
-   
+
 $(document).ready(function(){
     $( "#profileImage" )
   .mouseenter(function() {
@@ -22,9 +22,8 @@ $( ".crossRotate" ).click(function() {
 });
 
 $(document).ready(function() {
-  $( "#submitBtn" )
-  .click(function() {
-  alert("No server connection. To directly contact Jake Snider, Email: smokestacksandspires@gmail.com ");
+  $( "#submitBtn" ).click(function() {
+    alert("No server connection. To directly contact Jake Snider, Email: smokestacksandspires@gmail.com ");
   });
 });
 
